@@ -21,11 +21,14 @@ Pin  DE-10 Nano
 12     5/3.3V
 
 General State Machine:
+
 State 0:
   - Reset (async: enter this state via KEY0 button)
+  
 State 1:
   - Type in operand 0 using keypad, enter the number by pressing KEY1 button
   - Advance to state 2
+  
 State 2:
   - Choose operator
     - SW9 is off
@@ -40,9 +43,11 @@ State 2:
       - SW3 is on -> D2r
   - Enter desired operator by pressing KEY1 button
   - Advance to state 3
+  
 State 3:
   - Type in operand 1 using keypad, enter the number by pressing KEY1 button
   - Advance to state 4
+  
 State 4:
   - Show the output of the operation. Output will show in NIOS II uart terminal (in float format); output will also show on SSD on FPGA dev board. Obviously the uart terminal will show the best and most accurate results
   - Press KEY1 to use output as operand0 and advance to state 2
