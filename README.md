@@ -55,7 +55,9 @@ State 4:
   
 Note: Calculator can handle negative outputs and negative operands
   
-Easiest way to run the project:
+  
+  
+***Easiest way to run the project:***
 1. Download the .qar file
 2. Open the .qar file using Quartus
 3. Run compilation
