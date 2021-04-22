@@ -6,19 +6,19 @@ Scientific calculator on Intel DE0-nano FPGA.
 
 Pinout for keypad is as follows:
 - Pinout (https://reference.digilentinc.com/reference/pmod/pmodkypd/reference-manual?_ga=2.92793757.1442846861.1596228241-882181328.1596228241)
-Pin  DE-10 Nano
-1     Pin_W12
-2     Pin_AB12
-3     Pin_AB11
-4     Pin_AB10
-5       GND
-6      5/3.3V
-7     Pin_AB13
-8     Pin_Y11
-9     Pin_W11
-10    Pin_AA10
-11      GND
-12     5/3.3V
+(Pin,DE-10 Nano):
+(1,Pin_W12), 
+(2,Pin_AB12), 
+(3,Pin_AB11), 
+(4,Pin_AB10), 
+(5,GND), 
+(6,5/3.3V), 
+(7,Pin_AB13), 
+(8,Pin_Y11), 
+(9,Pin_W11), 
+(10,Pin_AA10), 
+(11,GND), 
+(12,5/3.3V)
 
 General State Machine:
 
