@@ -59,8 +59,6 @@ State 4:
   - Press KEY1 to use output as operand0 and advance to state 2
   - Press KEY0 to reset operation and advance to state 0
   
-Note: Calculator can handle negative outputs and negative operands
-  
   
   
 ***Easiest way to run the project:***
