@@ -1,10 +1,10 @@
 # DE10-nano-Calculator
-Scientific calculator on Intel DE0-nano FPGA + NIOS II processor.
+Scientific calculator on Intel DE10-nano FPGA + NIOS II processor.
   - Calculator is capable of the following:
     - Addition, Subtraction, Multiplication, Division, Log10, Power, Factorial, Degrees to Radians, Negative numbers
     - Using Verilog to debounce keypresses
     - Carrying over answer of previous operation to operand 1 of next equation
-    - Displaying answer on DE-10 Lite seven segment displays (truncated)
+    - Displaying answer on DE10-nano seven segment displays (truncated)
     - Displaying "double" formatted answer to a PC using NIOS II UART
 
 - Requires a Digilent PMOD keypad to run this program: https://store.digilentinc.com/pmod-kypd-16-button-keypad/
