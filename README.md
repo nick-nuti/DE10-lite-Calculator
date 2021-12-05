@@ -11,6 +11,7 @@ Scientific calculator on Intel DE10-lite FPGA + NIOS II processor.
 -******NOTE THIS PROJECT WAS DONE USING QUARTUS 18.1; IF YOU SEE WEIRD RESULTS IT'S DUE TO VERSION DIFFERENCES******
 
 Pinout for DE10-lite (PG 30): https://www.intel.com/content/dam/www/programmable/us/en/portal/dsn/42/doc-us-dsnbk-42-2912030810549-de10-lite-user-manual.pdf
+
 Pinout for keypad is as follows:
 - Pinout (https://reference.digilentinc.com/reference/pmod/pmodkypd/reference-manual?_ga=2.92793757.1442846861.1596228241-882181328.1596228241)
 
