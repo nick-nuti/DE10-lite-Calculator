@@ -58,7 +58,7 @@ State 3:
   - Advance to state 4
   
 State 4:
-  - Show the output of the operation. Output will show in NIOS II uart terminal (in float format); output will also show on SSD on FPGA dev board. Obviously the uart terminal will show the best and most accurate results
+  - Show the output of the operation. Output will show in NIOS II uart terminal (in double format); output will also show on SSD on FPGA dev board. Obviously the uart terminal will show the best and most accurate results
   - Press KEY1 to use output as operand0 and advance to state 2
   - Press KEY0 to reset operation and advance to state 0
   
