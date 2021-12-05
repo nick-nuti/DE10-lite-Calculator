@@ -32,10 +32,10 @@ Pinout for keypad is as follows:
 General State Machine:
 
 State 0:
-  - Reset (async: enter this state via KEY0 button)
+  - Reset (async: enter this state via KEY0 pushbutton)
   
 State 1:
-  - Type in operand 0 using keypad, enter the number by pressing KEY1 button
+  - Type in operand 0 using keypad, enter the number by pressing KEY1 pushbutton
   - Advance to state 2
   
 State 2:
