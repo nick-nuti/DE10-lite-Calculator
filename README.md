@@ -1,18 +1,20 @@
-# DE10-nano-Calculator
-Scientific calculator on Intel DE10-nano FPGA + NIOS II processor.
+# DE10-lite-Calculator
+Scientific calculator on Intel DE10-lite FPGA + NIOS II processor.
   - Calculator is capable of the following:
     - Addition, Subtraction, Multiplication, Division, Log10, Power, Factorial, Degrees to Radians, Negative numbers
     - Using Verilog to debounce keypresses
     - Carrying over answer of previous operation to operand 1 of next equation
-    - Displaying answer on DE10-nano seven segment displays (truncated)
+    - Displaying answer on DE10-lite seven segment displays (truncated)
     - Displaying "double" formatted answer to a PC using NIOS II UART
 
 - Requires a Digilent PMOD keypad to run this program: https://store.digilentinc.com/pmod-kypd-16-button-keypad/
 -******NOTE THIS PROJECT WAS DONE USING QUARTUS 18.1; IF YOU SEE WEIRD RESULTS IT'S DUE TO VERSION DIFFERENCES******
 
+Pinout for DE10-lite (PG 30): https://www.intel.com/content/dam/www/programmable/us/en/portal/dsn/42/doc-us-dsnbk-42-2912030810549-de10-lite-user-manual.pdf
 Pinout for keypad is as follows:
 - Pinout (https://reference.digilentinc.com/reference/pmod/pmodkypd/reference-manual?_ga=2.92793757.1442846861.1596228241-882181328.1596228241)
-(Keypad Pin,DE-10 Nano):
+
+(Keypad Pin,DE-10 lite):
 (Pin 1, Pin_W12), 
 (Pin 2, Pin_AB12), 
 (Pin 3, Pin_AB11), 
