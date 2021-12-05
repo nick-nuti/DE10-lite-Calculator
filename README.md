@@ -3,7 +3,7 @@ Scientific calculator on Intel DE10-lite FPGA + NIOS II processor.
   - Calculator is capable of the following:
     - Addition, Subtraction, Multiplication, Division, Log10, Power, Factorial, Degrees to Radians, Negative numbers
     - Using Verilog to debounce keypresses
-    - Carrying over answer of previous operation to operand 1 of next equation
+    - Carrying over answer of previous operation to operand 0 of next equation
     - Displaying answer on DE10-lite seven segment displays (truncated)
     - Displaying "double" formatted answer to a PC using NIOS II UART
 
